@@ -1,0 +1,10 @@
+### host human
+perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host human -o ./  -notrun
+
+### host mice
+perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host mice  -o ./  -notrun
+
+### host none
+perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host none -o ./  -notrun
+
+
