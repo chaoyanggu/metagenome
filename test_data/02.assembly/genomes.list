@@ -1,0 +1,2 @@
+sample1	/datapool/bioinfo/guchaoyang/pipeline/metagenome/upload/test_data/02.assembly/assembly/sample1/contigs.fasta	/datapool/bioinfo/guchaoyang/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa
+sample2	/datapool/bioinfo/guchaoyang/pipeline/metagenome/upload/test_data/02.assembly/assembly/sample2/contigs.fasta	/datapool/bioinfo/guchaoyang/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample2.contig.fa

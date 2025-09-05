@@ -1,0 +1,2 @@
+sample1	/datapool/ngs/sample1/sample1.R1.fastq.gz,/datapool/ngs/sample1/sample1.R2.fastq.gz
+sample2	/datapool/ngs/sample2/sample2.R1.fastq.gz,/datapool/ngs/sample2/sample2.R2.fastq.gz
