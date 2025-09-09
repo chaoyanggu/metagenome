@@ -1,0 +1,3 @@
+file                                format  type  num_seqs     sum_len  min_len  avg_len  max_len     Q1       Q2     Q3  sum_gap    N50  Q20(%)  Q30(%)  GC(%)
+pick_1k_sequence/sample1.contig.fa  FASTA   DNA        440     645,462    1,001    1,467    6,963  1,082  1,193.5  1,469        0  1,308       0       0  56.38
+pick_1k_sequence/sample2.contig.fa  FASTA   DNA      2,942  11,099,110    1,000  3,772.6  193,673  1,242  1,627.5  2,424        0  8,713       0       0  51.89
