@@ -1,0 +1,6 @@
+#FILE	SEQUENCE	START	END	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION
+/datapool/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa	NODE_126_length_1411_cov_33.576696	169	1411	sitABCD_1	2213-3459/3459	......../======	1/4	35.94	99.60	resfinder	AY598030
+/datapool/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa	NODE_287_length_1117_cov_72.380414	295	1089	aph(3')-IIa_2	1-795/795	===============	0/0	100.00	100.00	resfinder	V00618
+/datapool/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa	NODE_316_length_1092_cov_173.803279	1	59	blaTEM-1A_1	116-174/861	..==...........	0/0	6.85	98.31	resfinder	HM749966
+/datapool/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa	NODE_33_length_2381_cov_754.283749	1391	2251	blaTEM-116_1	1-861/861	===============	0/0	100.00	100.00	resfinder	AY425988
+/datapool/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa	NODE_389_length_1037_cov_50.400204	171	986	aph(3')-Ia_1	1-816/816	===============	0/0	100.00	99.75	resfinder	V00359

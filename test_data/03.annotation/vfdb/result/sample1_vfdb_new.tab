@@ -1,0 +1,4 @@
+#FILE	SEQUENCE	START	END	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION
+/datapool/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa	NODE_179_length_1256_cov_51.116570	788	939	pilJ	1489-1640/2049	......../..==..	2/4	7.32	76.62	vfdb	NP_249102
+/datapool/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa	NODE_395_length_1034_cov_45.810010	1	83	entB	776-858/858	.............==	0/0	9.67	97.59	vfdb	NP_752613
+/datapool/pipeline/metagenome/upload/test_data/02.assembly/pick_1k_sequence/sample1.contig.fa	NODE_395_length_1034_cov_45.810010	83	829	entA	1-747/747	===============	0/0	100.00	95.98	vfdb	NP_752614
