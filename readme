@@ -1,23 +1,37 @@
+Overview
+MetaGenomeV2​​ is an automated analysis pipeline for clinical metagenomic samples (e.g., paired-end FASTQ). It performs ​​quality control, host depletion, microbial assembly, binning, and annotation of antimicrobial resistance (AMR) & virulence genes​​, enabling rapid identification of drug-resistant bacterial genomes (MAGs) from raw sequencing data.
+
+Key Functions
+1. Quality Control​​: FastQC + fastp (sliding window, adapter trimming) and host removal​​: Bowtie2 (human: hg38 / mouse: mm39)
+2. ​​Assembly​​: metaSPAdes (de novo metagenome assembly) and ​binning​​: metaWRAP (MetaBAT2/MaxBin2/CONCOCT) + bin_refinement
+3. ​​Annotation​​: Prokka (functional) + Abricate (AMR: ResFinder_new, Virulence: VFDB_new)
+4. ​​Taxonomy​​: GTDB-Tk (standardized species classification)
+5. Reporting​​: MultiQC + R scripts (species abundance, AMR tables, top MAGs)
+
+Installation & Usage
+1. Clone the pipeline
+git clone <repository> MetaGenomeV2
+cd MetaGenomeV2
+
+2. Prepare sample list (format: sample_name<TAB>fq1,fq2)
+echo -e "S1\t/data/S1_R1.fq.gz,/data/S1_R2.fq.gz" > sample.list
+
+3. Run the pipeline (human samples)
 ### host human
 perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host human -o ./  -notrun
-
 cd shell/
-
 sh metagenome.sh &
-
 
 ### host mice
 perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host mice  -o ./  -notrun
-
 cd shell/
-
 sh metagenome.sh &
 
 ### host none
 perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host none -o ./  -notrun
-
 cd shell/
-
 sh metagenome.sh &
 
+4. View results
+firefox result/00.rawdata/multiqc_output/multiqc_report.html
 
