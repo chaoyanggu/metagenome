@@ -1,10 +1,23 @@
 ### host human
 perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host human -o ./  -notrun
 
+cd shell/
+
+sh metagenome.sh &
+
+
 ### host mice
 perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host mice  -o ./  -notrun
 
+cd shell/
+
+sh metagenome.sh &
+
 ### host none
 perl /datapool/pipeline/metagenome/bin/metagenomev2.pl -samplelist sample.list  -host none -o ./  -notrun
+
+cd shell/
+
+sh metagenome.sh &
 
 
