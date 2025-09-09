@@ -35,3 +35,12 @@ sh metagenome.sh &
 4. View results
 firefox result/00.rawdata/multiqc_output/multiqc_report.html
 
+Directory Structure
+./
+├── 00.rawdata/        # QC results
+├── 01.cleandata/      # Cleaned reads (no host)
+├── 02.assembly/       # Assembled MAGs
+├── 03.annotation/     # AMR & virulence genes
+└── shell/             # Scripts & logs
+
+
